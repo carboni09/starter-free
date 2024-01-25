@@ -6,7 +6,7 @@
     "./packages/*"
   ],
   "scripts": {
-    "native": "cd apps/expo && yarn start",
+    "native": "cd apps/expo && yarn start --tunnel",
     "watch": "yarn workspaces foreach -pi run watch",
     "vercel:install": "yarn set version 3.5 && yarn install",
     "web": "yarn build && cd apps/next && yarn next",
@@ -30,10 +30,12 @@
   "dependencies": {
     "@babel/runtime": "^7.18.9",
     "@manypkg/cli": "^0.19.1",
+    "@tamagui/babel-plugin": "^1.88.5",
     "check-dependency-version-consistency": "^3.0.3",
     "eslint": "^8.21.0",
     "node-gyp": "^9.3.1",
     "prettier": "^2.7.1",
+    "tamagui-loader": "^1.88.5",
     "turbo": "^1.10.3",
     "typescript": "^5.3.3"
   },

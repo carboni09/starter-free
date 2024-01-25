@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "rootDir": ".",
     "importHelpers": true,
-    "allowJs": false,
+    "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "downlevelIteration": true,
     "esModuleInterop": true,
@@ -25,10 +25,17 @@
     "sourceMap": false,
     "strictNullChecks": true,
     "target": "es2020",
-    "types": ["node"],
-    "lib": ["dom", "esnext"]
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "dom",
+      "esnext"
+    ]
   },
-  "exclude": ["_"],
+  "exclude": [
+    "_"
+  ],
   "typeAcquisition": {
     "enable": true
   }

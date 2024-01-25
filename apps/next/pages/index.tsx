@@ -1,3 +1,4 @@
+import { Header } from 'app/components'
 import { HomeScreen } from 'app/features/home/screen'
 import Head from 'next/head'
 
@@ -7,6 +8,7 @@ export default function Page() {
       <Head>
         <title>Home</title>
       </Head>
+      <Header />
       <HomeScreen />
     </>
   )
