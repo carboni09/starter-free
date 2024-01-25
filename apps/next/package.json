@@ -24,16 +24,12 @@
     "react-dom": "^18.2.0",
     "react-native": "0.72.6",
     "react-native-web": "~0.19.6",
-    "react-native-web-lite": "^1.86.6",
-    "react-player": "^2.14.1",
-    "react-slick": "^0.29.0",
-    "react-snap-carousel": "^0.4.0",
-    "slick-carousel": "^1.8.1",
+    "react-native-web-lite": "^1.88.12",
     "tamagui": "^1.86.6",
     "vercel": "latest"
   },
   "devDependencies": {
-    "@tamagui/next-plugin": "^1.86.6",
+    "@tamagui/next-plugin": "^1.88.12",
     "@types/node": "^18.6.4",
     "@types/react-slick": "^0",
     "@types/slick-carousel": "^1",
